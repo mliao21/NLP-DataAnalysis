@@ -12,10 +12,10 @@ Instructions are contained inside [this jupyter notebook file](NLP-Exercise1.ipy
 ## Exercise 2 
 Instructions and code are inside [this jupyter notebook file](NLP-Exercise2.ipynb)
 
-**Question 1 is included in the file**
+**Question 1**<br>
+Small exercise is included in the file
 
-**Question 2**
-
+**Question 2**<br>
 For each programming language, the task is to find the most similar question with an accepted answer to the highest scored question in the language that does not have any accepted answer. Suppose, for Java, you had four questions with score (Q1: 3, Q2: 4, Q3: 5, Q4:3). Suppose Q3 and Q4 do not have any accepted answer. Then Q3 is the highest scored question without any accepted answer. Suppose Q1 and Q2 have accepted answer. You will then see how similar Q1 and Q2 are to Q3. Suppose Q1 has similarity value of 0.8 with Q2 has a similarity value of 0.2 with Q3. Then you will return Q1 as the output. Such approaches are normally used to recommend solutions to an unanswered question in Stack Overflow.
 
 For each programming language, I wrote the function in python and returned the top three most similar questions. For similarity analysis, I used cosine similarity. I used standard preprocessing of the texts before computing similarity:
